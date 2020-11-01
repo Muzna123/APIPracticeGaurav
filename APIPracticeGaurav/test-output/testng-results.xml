@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8804" started-at="2020-06-22T18:07:00Z" finished-at="2020-06-22T18:07:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8804" started-at="2020-06-22T18:07:00Z" finished-at="2020-06-22T18:07:09Z">
+      <class name="apiAuthentication.OauthRequest">
+        <test-method status="PASS" signature="basicChallengeTest()[pri:0, instance:apiAuthentication.OauthRequest@6d8a00e3]" name="basicChallengeTest" duration-ms="2769" started-at="2020-06-22T23:37:00Z" finished-at="2020-06-22T23:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicChallengeTest -->
+        <test-method status="PASS" signature="basicPreemtiveTest()[pri:0, instance:apiAuthentication.OauthRequest@6d8a00e3]" name="basicPreemtiveTest" duration-ms="891" started-at="2020-06-22T23:37:03Z" finished-at="2020-06-22T23:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicPreemtiveTest -->
+        <test-method status="PASS" signature="oauth2AccessInValidAPI()[pri:0, instance:apiAuthentication.OauthRequest@6d8a00e3]" name="oauth2AccessInValidAPI" duration-ms="2908" started-at="2020-06-22T23:37:03Z" finished-at="2020-06-22T23:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oauth2AccessInValidAPI -->
+        <test-method status="PASS" signature="oauth2AccessValidAPI()[pri:0, instance:apiAuthentication.OauthRequest@6d8a00e3]" name="oauth2AccessValidAPI" duration-ms="1592" started-at="2020-06-22T23:37:06Z" finished-at="2020-06-22T23:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oauth2AccessValidAPI -->
+        <test-method status="PASS" signature="oauth2Test()[pri:0, instance:apiAuthentication.OauthRequest@6d8a00e3]" name="oauth2Test" duration-ms="625" started-at="2020-06-22T23:37:08Z" finished-at="2020-06-22T23:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oauth2Test -->
+      </class> <!-- apiAuthentication.OauthRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
